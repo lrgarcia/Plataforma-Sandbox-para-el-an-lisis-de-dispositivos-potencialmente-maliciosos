@@ -1,0 +1,36 @@
+.root 
+{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Univers";
+    -fx-text-fill: white;
+    -fx-font-weight: normal;
+    /*-fx-background-color: #3f3f3f;*/
+    -fx-background-image: url("/es/uvigo/esei/tfg/ui/icons/papyrus-dark.png");
+    
+    
+    
+}
+#infoButton
+{
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-max-height: 30px;
+    -fx-max-width:30px;
+    -fx-background-image: url("/es/uvigo/esei/tfg/ui/icons/info.png");
+    -fx-background-size: 25px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+
+}
+#configButton
+{
+-fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-max-height: 30px;
+    -fx-max-width:30px;
+    -fx-background-image: url("/es/uvigo/esei/tfg/ui/icons/configIcon.png");
+    -fx-background-size: 25px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

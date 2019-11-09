@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="560.0" minHeight="400.0" minWidth="560.0" prefHeight="400.0" prefWidth="560.0" styleClass="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.uvigo.esei.tfg.ui.AnalizeDeviceController">
+   <children>
+      
+      <TextArea fx:id="outputTextArea" editable="false" layoutX="15.0" layoutY="15.0" minHeight="296.0" minWidth="530.0" prefHeight="296.0" prefWidth="530.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font></TextArea>
+      <Button fx:id="cancelButton" layoutX="482.0" layoutY="344.0" mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
+     
+   </children>
+</AnchorPane>

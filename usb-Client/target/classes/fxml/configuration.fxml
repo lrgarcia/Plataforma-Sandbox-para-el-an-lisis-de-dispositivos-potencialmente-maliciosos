@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="560.0" minHeight="400.0" minWidth="560.0" prefHeight="400.0" prefWidth="560.0" styleClass="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.uvigo.esei.tfg.ui.ConfigurationController">
+   <children>
+      <Button id="applyButton" fx:id="applyButton" layoutX="475.0" layoutY="338.0" mnemonicParsing="false" onAction="#onApply" text="Apply" />
+      <Button id="backButton" fx:id="backButton" layoutX="67.0" layoutY="338.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+      <TextField id="portInput" fx:id="portInput" layoutX="159.0" layoutY="74.0" />
+      <TextField id="addressInput" fx:id="addressInput" layoutX="159.0" layoutY="149.0" />
+      <Label layoutX="79.0" layoutY="79.0" text="Port" textFill="WHITE" />
+      <Label layoutX="66.0" layoutY="154.0" text="Address" textFill="WHITE" />
+      <Label layoutX="66.0" layoutY="14.0" text="Configuration" textFill="#eee5e5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
